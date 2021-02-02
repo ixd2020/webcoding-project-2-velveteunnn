@@ -1,53 +1,312 @@
 /* CSS files add styling rules to your content */
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
-        *
-        {
-            margin:0px;
-            padding:0px;
-        }
-
-        nav
-        {
-            background-color: #333333;
-            height:38px;
-        }
-        nav a
-        {
-            text-decoration: none;
-            color:#d6d6d6;
-            margin:40px;
-            position: relative;
-            top:10px;
-          font-family:SF PRO TEXT;
-        }
-      nav a img 
-      {
-        position:relative;
-        bottom:5px;
-        }
-        ul
-        {
-            display:flex;
-            list-style-type: none;
-        }
-        .nav
-        {
-            flex:1;
-            justify-content:center;
-        }
-        
-        .buy
-        {
-            text-align:center;
-          position:relative;
-          top:20px;
-        }
-        .buy a 
-        {
-          color:#0066cc;
-        }
-p
+body
 {
-  color:#919192;
+  text-align:center;
+}
+
+nav {
+  background-color: #333333;
+  height: 38px;
+}
+nav a {
+  text-decoration: none;
+  color: #d6d6d6;
+  margin: 40px;
+  position: relative;
+  top: 10px;
+  font-family: BlinkMacSystemFont, sans-serif;
+}
+nav a img {
+  position: relative;
+  bottom: 5px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav {
+  flex: 1;
+  justify-content: center;
+}
+
+.buy {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.buy a {
+  color: #0066cc;
+}
+.buy{
+  color: #919192;
+}
+
+headline img
+{
+  margin-top:50px;
+}
+
+headline h1
+{
+  margin:20px 0px;
+  font-size:68px;
+}
+
+headline p
+{
+  font-size:23px;
+}
+
+.xxxl_phone
+{
+  margin-top:50px;
+  font-size:60px;
+  font-weight:bold;
+}
+
+.word
+{
+  position:absolute;
+  top:1600px;
+  left:770px;
+}
+.xxxl_pro
+{
+  font-size:65px;
+}
+.connect2
+{
+  font-size:30px;
+}
+
+.word p
+{
+  color:white;
+}
+
+.connect
+{
+  font-size:30px;
+  font-weight:bold;
+}
+
+.shop
+{
+  color:blue;
+  font-size:25px;
+  text-decoration:none;
+  margin:0px 30px; 
+}
+
+.shop2
+{
+  color:blue;
+  font-size:23px;
+  text-decoration:none;
+  background:none;
+  margin:0px 26px;
+}
+
+.black
+{
+  background:black;
+  
+}
+
+.move a
+{
+  margin-right:50px;
+}
+
+.container
+{
+  grid-template-columns: repeat(2,1fr);
+  display:flex;
+}
+
+.container img
+{
+  margin:80px 80px;
+}
+
+.container a
+{
+  text-decoration:none;
+}
+
+.container h2
+{
+  font-size:32px;
+  color:black;
+}
+
+.container p
+{
+  font-size:18px;
+  color:black;
+}
+
+.scnyg a
+{
+  text-decoration:none;
+  color:blue;
+}
+
+.container2
+{
+  grid-template-columns: repeat(3,1fr);
+  display:flex;
+}
+
+.container2 img
+{
+  width:50%;
+  margin-top:50px;
+}
+
+.left_img
+{
+  position:relative;
+  left:230px;
+}
+
+.right_img
+{
+  position:relative;
+  right:230px;
+}
+
+.left_img2
+{
+  position:relative;
+  left:180px;
+  
+}
+
+.right_img2
+{
+  position:relative;
+  left:280px;
+  bottom:160px;
+ 
+}
+
+.ok
+{
+  position:absolute;
+  left:260px;
+  top:210px;
+  font-size:20px;
+  color:blue;
+}
+
+.left_img2 h2
+{
+  position:relative;
+  left:20px;
+  top:60px;
+  font-size:2.5em;
+}
+.left_img2 .ok:hover
+{
+text-decoration: underline;
+}
+
+.right_img2 h2
+{
+  position:relative;
+  top:200px;
+  color:white;
+   letter-spacing: 2px;
+  font-size:2em;
+}
+.right_img2 a p
+{
+  color:red;
+  position:relative;
+  top:195px;
+  letter-spacing: 3px;
+}
+
+.right_img2 a h3
+{
+  color:white;
+  position:relative;
+  top:205px;
+  font-size:25px;
+}
+
+#apple 
+{
+  position:absolute;
+  bottom:475px;
+  right:520px;
+}
+
+.ipad
+{
+  position:relative;
+  bottom:140px;
+}
+
+.ok2
+{
+  position:absolute;
+  left:456px;
+  top:90px;
+  font-size:20px;
+  color:blue;
+}
+
+.ipad img
+{
+  margin-top:0px;
+}
+
+.airpodmax
+  {
+  position:relative;
+  bottom:140px;
+    left:50px;
+  }
+
+.ok3
+{
+  position:absolute;
+  left:413px;
+  top:60px;
+  font-size:20px;
+  color:blue;
+}
+.ok4
+{
+  position:absolute;
+  left:513px;
+  top:80px;
+  font-size:20px;
+  color:blue;
+}
+
+.lm1
+{
+  position:absolute;
+  left:363px;
+  top:80px;
+  font-size:20px;
+  color:blue;
+}
+
+.lm2
+{
+  position:absolute;
+  left:263px;
+  top:60px;
+  font-size:20px;
+  color:blue;
 }
