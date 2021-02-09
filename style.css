@@ -310,3 +310,48 @@ text-decoration: underline;
   font-size:20px;
   color:blue;
 }
+
+.appleone img
+{
+  position: relative;
+  bottom: 250px;
+  right:220px;
+}
+text1
+{
+  position: relative;
+  bottom: 300px;
+  right:625px;
+  font-size: 1.5em;
+}
+
+text2
+{
+  position: relative;
+  bottom: 270px;
+  right:880px;
+  font-size: 1.5em;
+}
+
+
+.applelearn a
+{
+    position: relative;
+    bottom: 250px;
+    font-size: 1.3em;
+    right:470px;
+    margin: 0px 20px;
+}
+
+.applelearn a :nth-child(1)
+{
+    right:20px;
+}
+
+.open img
+{
+  position: absolute;
+  top: 3700px;
+  right:390px;
+}
+

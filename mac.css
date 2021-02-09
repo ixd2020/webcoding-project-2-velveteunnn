@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  text-align:center;
+}
+
+nav {
+  background-color: #333333;
+  height: 38px;
+}
+nav a {
+  text-decoration: none;
+  color: #d6d6d6;
+  margin: 40px;
+  position: relative;
+  top: 10px;
+  font-family: BlinkMacSystemFont, sans-serif;
+}
+nav a img {
+  position: relative;
+  bottom: 5px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav 
+{
+  flex: 1;
+  justify-content: center;
+}
+
+nav2 ul
+{
+  background: rgb(32, 31, 31);
+  height:125px;
+}
+
+.secondnav 
+{
+  justify-content: center;
+  color:white;
+}
+
+.secondnav li
+{
+  margin: 0px 20px;
+  margin-top: 20px;
+}
+.new
+{
+  color:red;
+  font-size: 12px;
+}
+
+main
+{
+  background-color:black;
+  height:800px;
+}
+
+.mac img
+{
+  margin-top: 100px;
+}
+
+text1
+{
+  color:white;
+}
+
+.linear-gradient 
+{
+  font-size: 88px;
+  background: -webkit-radial-gradient(circle closest-corner,white, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.secondnav a
+{
+  color:white;
+  text-decoration: none;
+}
+
+text2 a
+{
+  color:blue;
+  text-decoration: none;
+}
+
+

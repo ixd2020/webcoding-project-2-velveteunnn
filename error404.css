@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  text-align:center;
+}
+
+nav {
+  background-color: #333333;
+  height: 38px;
+  margin-bottom: 80px;
+}
+nav a {
+  text-decoration: none;
+  color: #d6d6d6;
+  margin: 40px;
+  position: relative;
+  top: 10px;
+  font-family: BlinkMacSystemFont, sans-serif;
+}
+nav a img {
+  position: relative;
+  bottom: 5px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav {
+  flex: 1;
+  justify-content: center;
+}
+
+text1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.search-container
+{
+    margin: 50px 0px;
+}
+
+.search-container input
+{
+    width:500px;
+    height:50px;
+    font-size: 20px;
+}
+
+div img
+{
+    width:20px;
+    position:absolute;
+    left:720px;
+    top:295px;
+}
+
+text2
+{
+    color:blue;
+    font-size: 1.2em;
+}
+
+text2 a
+{
+    text-decoration: none;
+}
+
+footer img
+{
+        width:20px;
+        margin-top: 20px;
+}
+
+applestuff
+{
+    margin-right: 970px;
+}
+
+footer
+{
+    position: absolute;
+    background-color:grey;
+    height:540px;
+    width:100%;
+    top:600px;
+}
+
+
+.firstnav
+{
+    margin-left: 400px;
+}
+
+.firstnav li, .secondhalfnav li, .secondnav li,.thirdnav li,.fourthnav li,.fourthnavhalf li,.fourthnavlast li, .fifthnav li,.fifthnavhalf li
+{
+    margin-top:10px;
+    text-align: start;
+    list-style-type: none;
+}
+
+.firstnav a, .secondhalfnav a, .secondnav a, .thirdnav a,.fourthnav a,.fourthnavhalf a,.fourthnavlast a ,.fifthnav a,.fifthnavhalf a
+{
+    text-decoration: none;
+    color:black;
+}
+
+ label
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.secondnav, .secondhalfnav, .fifthnav, .fifthnavhalf
+{
+    margin-left: 100px; 
+}
+
+.secondhalfnav, .fourthnavhalf, .fourthnavlast,.fifthnavhalf
+{
+    margin-top: 20px;
+}
+
+align
+{
+    display:flex;
+}
+
+.thirdnav,.fourthnav, .fourthnavhalf, .fourthnavlast
+{
+    margin-left: 60px;
+}
+
+text3{
+    
+    position: absolute;
+    left:400px;
+    top:450px;
+}
+
+text3 a
+{
+    text-decoration: none;
+    color:blue;
+}
+
+lastnav
+{
+    display:flex;
+    position: absolute;
+    top:490px;
+    left:400px;
+}
+
+.last
+{
+    display:flex;
+    
+}
+.last li :nth-child(1)
+{
+    margin-left: 40px;
+}
+
+
+.vl {
+    border-left: 2px solid lightcyan;
+    height: 16px;
+    margin-left:20px;
+  }
+
+  .last li{
+      list-style-type: none;
+  }
